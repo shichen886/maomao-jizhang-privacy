@@ -31,7 +31,7 @@
         <h1>第三方 SDK 与开源组件清单</h1>
         <p>以下清单依据当前 Flutter 依赖、Android Gradle 依赖和实际代码用途整理。普通算法与界面工具不会被夸大描述为个人信息收集 SDK。</p>
         <div class="policy-meta">
-          <span>更新日期：2026 年 7 月 28 日</span>
+          <span>更新日期：2026 年 7 月 30 日</span>
           <span>对应应用版本：1.0.0</span>
           <span>开发者：杜士辰</span>
         </div>
@@ -67,8 +67,8 @@
                 <div class="sdk-body">
                   <dl>
                     <dt>提供方</dt><dd>tekartik.com 社区与 SQLite 项目</dd>
-                    <dt>使用目的</dt><dd>在应用私有目录保存账目、分类、规则、设置和猫猫成长数据</dd>
-                    <dt>处理的数据</dt><dd>用户输入或确认保存的本地结构化数据</dd>
+                    <dt>使用目的</dt><dd>在应用私有目录保存账本、账目、分类、共同分账、规则、设置和猫猫成长数据</dd>
+                    <dt>处理的数据</dt><dd>用户输入或确认保存的本地结构化数据，以及用户主动设置的账本封面数据</dd>
                     <dt>是否联网</dt><dd>否</dd>
                     <dt>是否上传内容</dt><dd>否</dd>
                     <dt>官方说明</dt><dd><a href="https://pub.dev/packages/sqflite" rel="noopener noreferrer">sqflite 组件说明</a>；<a href="https://www.sqlite.org/about.html" rel="noopener noreferrer">SQLite 项目说明</a></dd>
@@ -81,8 +81,8 @@
                 <div class="sdk-body">
                   <dl>
                     <dt>提供方</dt><dd>Flutter 官方团队</dd>
-                    <dt>使用目的</dt><dd>调用系统图片选择器，让用户主动选择需要识别的账单图片</dd>
-                    <dt>处理的数据</dt><dd>用户明确选择的图片文件路径和图片内容</dd>
+                    <dt>使用目的</dt><dd>调用系统图片选择器，让用户主动选择需要识别的账单图片或需要设置的账本封面</dd>
+                    <dt>处理的数据</dt><dd>用户明确选择的图片文件路径和图片内容；OCR 图片只用于当次识别，用户确认设置的封面会保存在本机</dd>
                     <dt>是否联网</dt><dd>否</dd>
                     <dt>是否上传内容</dt><dd>否</dd>
                     <dt>官方说明</dt><dd><a href="https://pub.dev/packages/image_picker" rel="noopener noreferrer">image_picker 组件说明</a></dd>
@@ -193,4 +193,3 @@
     </footer>
   </body>
 </html>
-
