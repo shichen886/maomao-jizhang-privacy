@@ -2,7 +2,7 @@
 
 这是三花小账本的独立静态官网仓库，用于公开展示应用介绍、隐私政策和第三方 SDK 清单。
 
-正式网址：https://shichen886.github.io/maomao-jizhang-privacy/
+正式网址：https://www.huihuimao.cn/
 
 ## 内容
 
